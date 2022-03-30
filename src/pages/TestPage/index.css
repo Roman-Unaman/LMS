@@ -1,0 +1,53 @@
+#test-page .main {
+  padding: 8px;
+  margin: 0;
+  background: none;
+}
+
+#test-page .content {
+  padding: 12px 12px 43px 30px;
+  margin: 0;
+  background: none;
+}
+
+#test-page .content .intro {
+  line-height: 24px;
+}
+
+#test-page .controls-container {
+  margin: 46px 0 0 13px;
+}
+
+.time-limit-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.time-limit-container .input-container {
+  margin: 0 8px 0 4px;
+  width: 90px;
+}
+
+#test-page .content .list-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 24px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+
+  font-size: 14px;
+  line-height: 22px;
+}
+
+#test-page .content .list-item .list-item-index {
+  width: 20px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+#test-page .content .list-item .list-item-points {
+  width: 16px;
+  text-align: left;
+}

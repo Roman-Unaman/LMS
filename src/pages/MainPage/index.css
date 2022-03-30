@@ -1,0 +1,106 @@
+#main-page .main {
+  padding: 0;
+  margin: 0;
+  background: none;
+  height: 100%;
+}
+
+#main-page .content {
+  padding: 10px;
+  background: none;
+}
+
+#main-page .sider {
+  padding: 0;
+  margin: 0 20px 0 0;
+  background-color: #FAFAFA;
+}
+
+#main-page .filters-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-page .filters-container .filters {
+  display: flex;
+  padding: 10px 0;
+}
+
+#main-page .filters-container .filter {
+  margin-right: 25px;
+  text-decoration: underline;
+  font-size: 10px;
+  line-height: 12px;
+  color: #2F80ED;
+}
+
+#main-page .result-list-container {
+  display: flex;
+  justify-content: center;
+}
+
+#main-page .result-list-container .card-container {
+  padding: 0;
+  border: none;
+}
+
+#main-page .result-list-container .card {
+  padding: 10px 8px;
+  margin-bottom: 12px;
+  width: 408px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+#main-page .result-list-container .card .card-title {
+  margin-bottom: 12px;
+
+  font-size: 16px;
+  line-height: 19px;
+}
+
+#main-page .result-list-container .card .tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 7px;
+}
+
+#main-page .result-list-container .card .tags-container .tag {
+  padding: 3px;
+  border-radius: 3px;
+  margin-right: 4px;
+
+  font-size: 8px;
+  line-height: 9px;
+}
+
+#main-page .result-list-container .card .tags-container .green {
+  background: rgba(111, 207, 151, 0.2);
+  color: #219653;
+}
+
+#main-page .result-list-container .card .tags-container .gray {
+  background: #F2F2F2;
+  color: #828282;
+}
+
+#main-page .result-list-container .card .user-container {
+  display: flex;
+  align-items: center;
+}
+
+#main-page .result-list-container .card .user-container .avatar {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #C4C4C4;
+  margin-right: 5px;
+}
+
+#main-page .result-list-container .card .user-container .username {
+  font-size: 8px;
+  line-height: 9px;
+
+  color: #000000;
+}

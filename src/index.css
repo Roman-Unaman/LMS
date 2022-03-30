@@ -1,0 +1,64 @@
+h2,
+h3,
+h4,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 24px !important;
+  line-height: 28px !important;
+}
+
+h3 {
+  font-size: 20px !important;
+  line-height: 23px !important;
+}
+
+.page-container {
+  width: 768px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.text {
+  color: rgba(0, 0, 0, 0.85);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.header {
+  padding: 8px;
+  margin: 0;
+  background: none;
+  height: 40px;
+  line-height: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sider {
+  padding: 0;
+  margin: 0 20px 0 0;
+  background-color: white;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  font-size: 12px;
+  line-height: 24px;
+}

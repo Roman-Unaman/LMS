@@ -1,0 +1,22 @@
+.login-page-header {
+  margin-bottom: 40px;
+}
+
+.login-page-content {
+  width: 380px;
+  margin: 0 auto;
+  padding-top: 80px; 
+}
+
+.input-field-container {
+  margin-bottom: 20px;
+}
+
+.input-field-label {
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 10px;
+}
+.actions-container {
+  display: flex;
+}
