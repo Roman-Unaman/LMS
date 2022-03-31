@@ -8,6 +8,8 @@ import {
 import LoginPage from "./pages/LoginPage";
 import TestPage from "./pages/TestPage";
 import MainPage from "./pages/MainPage";
+import TimelinePage from "./pages/TimelinePage";
+import TestContentPage from "./pages/TestContentPage";
 
 const App = () => {
 
@@ -18,6 +20,10 @@ const App = () => {
       <TestPage/>
       <Divider />
       <MainPage/>
+      <Divider />
+      <TimelinePage/>
+      <Divider />
+      <TestContentPage/>
     </>
   );
 };

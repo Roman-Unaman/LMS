@@ -1,0 +1,55 @@
+#test-content-page .main {
+  width: 580px;
+  padding: 0;
+  margin: 0 auto;
+  background: none;
+  height: 100%;
+}
+
+#test-content-page .content {
+  padding: 20px 0;
+  background: none;
+}
+
+.task-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2F2F2;
+  border-radius: 30px;
+
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.task-icon.active {
+  border: 2px solid #2F80ED;
+}
+
+.task-icon.completed {
+  background: #2F80ED;
+  color: #FFFFFF;
+}
+
+.time-limit-label {
+  font-size: 14px;
+  line-height: 16px;
+  color: #BDBDBD;
+  margin-right: 14px;
+}
+
+.time-limit-value {
+  font-size: 18px;
+  line-height: 21px;
+  color: #219653;
+}
+
+.title {
+  font-size: 14px;
+  line-height: 24px;
+  color: #BDBDBD;
+}

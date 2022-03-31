@@ -16,6 +16,14 @@
   background-color: #FAFAFA;
 }
 
+#main-page .sider .menu {
+  border: none;
+  background-color: #FAFAFA;
+
+  font-size: 14px;
+  line-height: 22px;
+}
+
 #main-page .filters-container {
   display: flex;
   justify-content: space-between;
